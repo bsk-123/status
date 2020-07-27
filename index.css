@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.page1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s ease;
+}
+.page2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s ease;
+}
+.page1 progress,.page2 progress{
+    height: 5px;
+    width: 49%;
+    overflow: hidden;
+    border-radius: 50px;
+    color: #DDDDDD;
+}
+::-webkit-progress-bar{
+        background: #DDDDDD;
+}
+::-webkit-progress-value{
+    background: white;
+}
+.dp{
+    height: 21px;
+    width: 21px;
+}
+.dpi{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    float: left;
+}
+.bck{
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.mre{
+    float: right;
+    margin: 10px 8px 0 0;
+}
+.p1{
+    display: inline-block;
+    margin: 0 70px 0 30px;
+}
+.pro{
+    margin-top: 8px;
+}
+.pro p{
+    display: inline-block;
+    color: white;
+    margin: 2px 0 0 8px;
+    padding-left: 5px;
+}
+.stat,.stat2{
+    position: relative;
+    height: 89vh;
+    width: 100vw;
+}
+.stat img,.stat2 img{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+.bottom p{
+    text-align: center;
+}
+.i2{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        display: none;
+    }
+}
