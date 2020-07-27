@@ -14,7 +14,7 @@ var i=1;
                 var p = document.querySelector(".pr"+i)
                 console.log(p)
                 pbDuration(i,i+1)
-                document.querySelector(".stat img").setAttribute("src","i"+i+".JPG");
+                document.querySelector(".stat img").setAttribute("src","i"+i+".jpg");
             }else{
                 i=1
                 pbDuration(1,2)
@@ -27,7 +27,7 @@ var i=1;
                 var p = document.querySelector(".pr"+i)
                 console.log(p)
                 pbDuration(i,i-1)
-                document.querySelector(".stat img").setAttribute("src","i"+i+".JPG");
+                document.querySelector(".stat img").setAttribute("src","i"+i+".jpg");
             }else{
                 document.querySelector(".page1").style.left="-100%";
                 document.querySelector(".page2").style.left="0";
@@ -49,14 +49,14 @@ var i=1;
                 var p = document.querySelector(".pr2"+i)
                 console.log(p)
                 pbDuration1(i,i+1)
-                document.querySelector(".stat2 img").setAttribute("src","i1"+i+".JPG");
+                document.querySelector(".stat2 img").setAttribute("src","i1"+i+".jpg");
             }else{
                 document.querySelector(".page2").style.left="100%";
                 document.querySelector(".page1").style.left="0";
                 document.querySelector(".page2").style.display="none";
                 pbDuration(1,2)
                 i=1
-                document.querySelector(".stat img").setAttribute("src","i"+i+".JPG");
+                document.querySelector(".stat img").setAttribute("src","i"+i+".jpg");
             }
             
         }else{
@@ -66,7 +66,7 @@ var i=1;
                 var p = document.querySelector(".pr"+i)
                 console.log(p)
                 pbDuration1(i,i-1)
-                document.querySelector(".stat2 img").setAttribute("src","i1"+i+".JPG");
+                document.querySelector(".stat2 img").setAttribute("src","i1"+i+".jpg");
             }else{
                 i=1
                 pbDuration1(2,1)
@@ -95,12 +95,12 @@ var i=1;
                 clearInterval(k)
                 pbDuration1(1,2)
                 i=1
-                document.querySelector(".stat2 img").setAttribute("src","i11.JPG");
+                document.querySelector(".stat2 img").setAttribute("src","i11.jpg");
                 }
                 else{
                 j+=1
                 i+=1
-                document.querySelector(".stat img").setAttribute("src","i"+j+".JPG");
+                document.querySelector(".stat img").setAttribute("src","i"+j+".jpg");
                 }
             }
         },250)  
@@ -127,7 +127,7 @@ var i=1;
                 else{
                 j+=1
                 i+=1
-                document.querySelector(".stat2 img").setAttribute("src","i1"+j+".JPG");
+                document.querySelector(".stat2 img").setAttribute("src","i1"+j+".jpg");
                 }
             }
         },250)  
