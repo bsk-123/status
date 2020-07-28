@@ -103,7 +103,7 @@ var i=1;
                 document.querySelector(".stat img").setAttribute("src","i"+j+".jpg");
                 }
             }
-        },5)  
+        },250)  
     }
     pbDuration(1,2)
     function pbDuration1(m,n){
@@ -130,5 +130,5 @@ var i=1;
                 document.querySelector(".stat2 img").setAttribute("src","i1"+j+".jpg");
                 }
             }
-        },5)  
+        },250)  
     }
