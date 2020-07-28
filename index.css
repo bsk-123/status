@@ -28,7 +28,7 @@ body{
 .pbars div{
     display: inline-block;
     width: 49%;
-    background-color: #DDDDDD;
+    background-color: grey;
     height: 5px;
     border-radius: 30px;
 }
