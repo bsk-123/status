@@ -22,12 +22,24 @@ body{
     width: 100vw;
     transition: all 0.5s ease;
 }
-.page1 progress,.page2 progress{
-    height: 5px;
+.pbars{
+    padding: 1px 5px 0px 5px;
+}
+.pbars div{
+    display: inline-block;
     width: 49%;
-    overflow: hidden;
-    border-radius: 50px;
-    color: #DDDDDD;
+    background-color: #DDDDDD;
+    height: 5px;
+    border-radius: 30px;
+}
+.pr1::before,.pr2::before,.pr21::before,.pr22::before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: calc(var(--width,0) * 1%);
+    background-color: white;
+    transition: all 0.3s linear;
+    border-radius: 30px;
 }
 .dp{
     height: 21px;
